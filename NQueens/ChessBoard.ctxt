@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=ChessBoard
+comment1.params=size\ showSteps\ delay
+comment1.target=ChessBoard(int,\ boolean,\ int)
+comment1.text=\r\n\ Constructs\ an\ object\ that\ solves\ the\ N\ Queens\ Problem.\r\n\ @param\ n\ the\ number\ of\ queens\ to\ be\ placed\ on\ an\ n\ by\ n\ board\r\n
+comment2.params=
+comment2.target=void\ solve()
+comment2.text=\r\n\ Kicks\ off\ the\ recursion\ to\ solve\ the\ N\ Queens\ Problem.\r\n
+comment3.params=q
+comment3.target=boolean\ placeQueen(int)
+comment3.text=\r\n\ Attempts\ to\ place\ the\ qth\ queen\ on\ the\ board.\r\n\ Precondition\:\ 0\ <\=\ q\ <\ size\r\n\ @param\ q\ row\ index\ of\ next\ queen\ to\ place\r\n\ @returns\ true\ if\ non-attacking\ queens\ were\ placed\ in\ all\ rows;\r\n\ \ \ \ \ \ \ \ \ \ false\ otherwise.\r\n\r\n\ This\ queen\ needs\ to\ be\ placed\ in\ row\ q.\ \ The\ only\ question\ is\r\n\ which\ column\ she\ will\ be\ in.\ \ placeQueen\ needs\ to\ try\ each\ column\r\n\ in\ turn.\ \ Whenever\ it\ finds\ a\ column\ that\ could\ work,\ it\ puts\ the\r\n\ queen\ there\ and\ then\ recurses\ to\ place\ the\ rest\ of\ the\ queens.\r\n
+comment4.params=row\ col
+comment4.target=boolean\ isForbidden(int,\ int)
+comment4.text=\r\n\ Determines\ whether\ a\ queen\ can\ or\ cannot\ be\ placed\ at\ the\ specified\r\n\ location.\r\n\ @param\ row\ the\ row\ of\ the\ location\ to\ test\r\n\ @param\ col\ the\ column\ of\ the\ location\ to\ test\r\n\ @returns\ false\ if\ this\ location\ is\ not\ attached\ by\ any\ queen\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ above\ it\ (with\ a\ smaller\ row).\ \ ie\ there\ is\ no\ queen\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ in\ the\ same\ column\ or\ either\ diagonal;\r\n\ \ \ \ \ \ \ \ \ \ true\ otherwise.\r\n\r\n\ isForbidden\ verifies\ that\ another\ queen\ can\ attack\ this\r\n\ location.\ \ Note\ that\ when\ this\ method\ is\ called,\ only\ queens\r\n\ in\ previous\ rows\ have\ been\ placed.\r\n
+comment5.params=row\ col
+comment5.target=void\ addQueen(int,\ int)
+comment5.text=\r\n\ Adds\ a\ queen\ at\ the\ specified\ location\ and\ re-shows\ the\ world.\r\n\ Precondition\:\ location\ is\ valid\ location\ in\ grid\r\n\ @param\ row\ the\ row\ of\ the\ location\ where\ the\ queen\ should\ be\ placed\r\n\ @param\ col\ the\ column\ of\ the\ location\ where\ the\ queen\ should\ be\ placed\r\n
+comment6.params=row\ col
+comment6.target=void\ removeQueen(int,\ int)
+comment6.text=\r\n\ Removes\ a\ queen\ at\ the\ specified\ location\ and\ re-shows\ the\ world.\r\n\ Precondition\:\ location\ is\ valid\ location\ in\ grid\r\n\ @param\ row\ the\ row\ of\ the\ location\ where\ the\ queen\ should\ be\ removed\r\n\ @param\ col\ the\ column\ of\ the\ location\ where\ the\ queen\ should\ be\ removed\r\n
+comment7.params=
+comment7.target=void\ display()
+comment7.text=\r\n\ Displays\ the\ solution.\r\n
+comment8.params=
+comment8.target=char[][]\ copyBoard()
+comment8.text=\r\n\ Makes\ a\ copy\ of\ the\ entire\ board\ for\ GUI\ usage.\r\n\ @returns\ a\ copy\ of\ the\ board\ instance\ variable\r\n
+numComments=9
