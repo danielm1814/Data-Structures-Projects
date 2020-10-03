@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=FrequencyComparator
+comment0.text=\r\n\ This\ FrequencyComparator\ object\ allows\ for\ a\ collection\r\n\ of\ WordCount\ objects\ to\ be\ sorted\ by\ frequency\ (i.e.\ word\ count)\r\n\ rather\ than\ alphabetically\ (as\ done\ by\ the\ compareTo\ method)\r\n\ \r\n\ @author\ \ Mr.\ Bredemeier\r\n\ @version\ February\ 11,\ 2013\r\n
+comment1.params=wc1\ wc2
+comment1.target=int\ compare(WordCount,\ WordCount)
+numComments=2
