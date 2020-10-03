@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=WordCountList
+comment0.text=\r\n\ WordCountList.java\ \ \r\n\r\n\ @author\:\r\n\ Assignment\ \#\:\r\n\ \r\n\ Brief\ Program\ Description\:\r\n\ \r\n\r\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=WordCountList()
+comment3.params=
+comment3.target=int\ size()
+comment4.params=
+comment4.target=boolean\ isFull()
+comment5.params=word
+comment5.target=void\ add(java.lang.String)
+comment6.params=index
+comment6.target=WordCount\ get(int)
+comment7.params=
+comment7.target=void\ rank()
+numComments=8
