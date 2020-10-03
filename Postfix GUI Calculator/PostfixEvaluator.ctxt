@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=PostfixEvaluator
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ PostfixEvaluator\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=expression
+comment1.target=int\ evaluate(java.lang.String)
+comment2.params=stack
+comment2.target=void\ add(java.util.Stack)
+comment3.params=stack
+comment3.target=void\ subtract(java.util.Stack)
+comment4.params=stack
+comment4.target=void\ modulus(java.util.Stack)
+comment5.params=stack
+comment5.target=void\ power(java.util.Stack)
+comment6.params=stack
+comment6.target=void\ multiply(java.util.Stack)
+comment7.params=stack
+comment7.target=void\ divide(java.util.Stack)
+comment8.params=num
+comment8.target=boolean\ isInteger(java.lang.String)
+numComments=9
