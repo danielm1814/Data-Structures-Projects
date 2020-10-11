@@ -1,0 +1,4 @@
+arcade==2.3.15
+ctypes
+future==0.18.2
+
